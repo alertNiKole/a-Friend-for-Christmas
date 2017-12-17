@@ -1,0 +1,268 @@
+/*/  Theme Created by NiKole Maxwell  /*/
+/*-----------------nvy.io---------------------*/
+/*
+
+Theme Name:   "A Christmas to Nvy"  
+Fiveer Gig: https://www.fiverr.com/s2/6330d375e5  (share on social media and 100 days of code)
+
+Color  Palatte
+--------------------
+Primary:
+Complimentary-1:
+Complimentary-2:     #e7bc46 (golden)
+
+
+Font Schema 
+--------------------
+Primary:
+Secondary:
+
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Quicksand|Tangerine" rel="stylesheet">
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Quicksand', sans-serif;
+
+
+Sections:
+****
+* Service *
+* Price List *
+* FAQ *
+* Contact Info *
+*/
+
+body, html {
+width: 100%;
+height: 100%;
+margin:0;
+font-size: 18px;
+font-family: 'Quicksand', sans-serif;
+font-weight: 500;
+line-height: 1.8em;
+color: darkgray;
+}
+
+
+/*/                            Video  Style                          /*/  
+
+.pageWrapper {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.videoContainer {
+    max-width: 1080px;
+    padding: auto .25em;
+    margin: auto;
+    margin-top: -1em;
+    text-align: center;
+}
+
+.fullScreenVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    border-bottom: 1.5em outset #dad4d48a;
+
+}  /*/ Alternative video link - https://www.dropbox.com/s/sepm14y5fmp16wt/1080_Merry_Christmas_Green_Videvo.mov?raw=1/*/
+
+
+/*/                        Parallax Style                          /*/    
+
+
+.titleBox{
+
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+}
+
+
+.section {
+text-align: center;
+background-color: #282e34
+}
+
+.title h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5em;
+    color: #e7bc46;
+    opacity: .96;
+    margin-top: 1em;
+    margin-left: 1em;
+    text-shadow: 1px 1px black, -1px -1px white, 1.8px 1.8px black, 2px 2px #21871d;
+        /* color: #fffafac2; */
+}
+
+.subtitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #e7bc46;
+    opacity: .96;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    text-shadow: 1px 1px black, -1px -1px white, 1.8px 1.8px black, 2px 2px #21871d;
+    float: right;
+    margin-top: 11em;
+    margin-right: 1em;
+    position: relative;
+}
+
+
+/*/          LOGO           /*/
+
+.logo {
+    float: left;
+    z-index: 98;
+    position: relative;
+    clear: both;
+    margin-top: -10em;
+}
+
+/*/          MENU           /*/
+
+.navFrame {
+    float: right;
+    z-index: 99;
+    box-shadow: -4px -2px #ffffff91;
+    font-weight: 900;
+    list-style: none;
+    padding: 20px;
+    margin: 15% 1em;
+    margin-right: 7em;
+    border: 1px solid#e7bc46;
+    border-radius: 5em;
+    background-image: url('../src/images/greenngold.jpeg');
+    background-position: bottom center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+.navFrame ul {
+    list-style: none;
+
+}
+
+.navFrame a {
+    text-decoration: none;
+    color: white; 
+    text-shadow: 1px 1px black, 1.5px 1.5px whitesmoke, 2px 2px gray;
+    
+}
+
+.navFrame ul h4 {
+
+        text-shadow: 1px 1px black, 1.5px 1.5px whitesmoke, 2px 2px grey;
+        margin-left: -1em;
+}
+.fa {
+    padding-right: 15px;
+}
+/*/ CONTENT  /*/
+
+
+#description {
+    margin-top: 15%;
+    width: 100%;
+    background-image: url('../src/images/greenngold.jpeg');
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.contentFrame {
+    margin-top: 8%;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.content {
+    opacity: 0.65;
+    color: #1b1e21;
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    background-blend-mode: overlay;
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: yellow;
+    border-image: initial;
+    border-radius: 5em;
+}
+
+.content p {
+    font-family: 'Quicksand', sans-serif;
+    margin: 5%;
+    color: black;
+    font-weight: 900;
+}
+
+
+/*/ Nav icons /*/
+
+.fa.fa-home, .fa.fa-tree {
+    color: transparent;
+    background-blend-mode: overlay;
+    text-shadow: 1px 1px transparent, 1.5px 1.5px rgb(97, 153, 97);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Throw away code */
+
+/*/ 
+.ccntentFrame {
+font-family: 'Montserrat |Alternates', sans-serif;
+position: absolute;
+
+width: 100%;
+margin-top: 1em;
+margin-left: 10%;
+margin-right: 20%;
+text-align: center;
+color: #282e34;
+font-size: 1.8em;
+letter-spacing: 8px;
+}
+
+/*
+.paraImg   {
+background-image: url("../images/white_christmas.jpg");
+min-height:50%;    
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
